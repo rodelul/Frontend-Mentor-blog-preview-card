@@ -84,3 +84,30 @@ body {
 .attribution {
     margin: 50px 0;
 }
+
+@media screen and (max-width: 768px) {
+
+    .hero {
+        display: flex;
+        align-items: center;
+        height: 100vh;
+        margin: 0 24px;
+    }
+
+    .inner--content p {
+        font-family: "Figtree", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+    .inner--content h2 {
+        font-family: "Figtree", sans-serif;
+        font-size: 18px;
+        font-weight: 800;
+    }
+
+    .container {
+        margin: 0 auto;
+    }
+
+}
